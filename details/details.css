@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+#productdetails {
+    width: 90%;
+    margin: 50px auto;
+}
+
+
+
+
+.product-details {
+    width: 100%;
+    min-height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 80px;
+
+    background-color: white;
+    padding: 40px;
+
+    border-radius: 10px;
+}
+
+
+
+
+.product-image-section {
+    width: 400px;
+    text-align: center;
+}
+
+.main-image {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+
+
+
+.all-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.small-image {
+    width: 60px;
+    height: 60px;
+
+    object-fit: contain;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+
+
+.product-content {
+    width: 500px;
+}
+
+.product-content h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.product-content h3 {
+    margin: 10px 0;
+    color: #555;
+}
+
+.product-content p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.product-content h2 {
+    font-size: 24px;
+}
+
+
+
+#buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+#buttons button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    cursor: pointer;
+}
+
+#cart-btn {
+    background-color: #7770b8;
+}
+
+#back-btn {
+    background-color: #df8c8c;
+}
+
+#buttons button:hover {
+    opacity: 0.8;
+}
+
+
+
+
+.reviews {
+    margin-top: 40px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.reviews > h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.stars {
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.review h4 {
+    margin-bottom: 10px;
+}
+
+.review p {
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.review small {
+    color: gray;
+}

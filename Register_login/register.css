@@ -1,0 +1,107 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    
+}
+body { 
+    background-color: whitesmoke; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.card {
+  background: white;
+  border: 1px solid wheat;
+  border-radius: 12px;
+  padding: 35px 35px 20px 35px;
+  width: 420px;
+  box-shadow: 0 4px 15px rgba(0,0,0.5,0.8);
+}
+
+.card h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: black;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background: #f9f9f9;
+  outline: none;
+  font-size: 14px;
+}
+
+input::placeholder { 
+    color: #a0a0b5;
+}
+
+input:focus { 
+    border-color: black; 
+    background: white; 
+}
+
+.register-btn {
+  width: 80%;
+  background: #0d8bf2;
+  color: white;
+  border: none;
+  padding: 13px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 28px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.register-btn:hover { 
+    background: deepskyblue; 
+}
+
+.login-text {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  margin-top: 20px;
+}
+
+.login-text a {
+  color: #6c6c8a;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.footer {
+  text-align: center;
+  font-size: 11px;
+  color: #ccc;
+  margin-top: 25px;
+}

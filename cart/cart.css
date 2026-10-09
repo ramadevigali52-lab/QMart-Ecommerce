@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cartContainer {
+    width: 60%;
+    margin: 30px auto;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 180px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+main img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin-right: 40px;
+}
+
+.details {
+    flex: 1;
+}
+
+.details h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.details p {
+    margin: 8px 0;
+}
+
+main button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
